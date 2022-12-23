@@ -1,0 +1,28 @@
+#include <iostream.h>
+ 
+int main()
+{
+    const int n=6;
+    int a[n][n];
+    //Ввод элементов
+    for (int i=0;i<n;i++)
+    {
+        for (int j=0;j<n;j++)
+        {
+            cout << "a[" << i << "][" << j << "] ";
+            cin >> a[i][j];
+            cout << endl;
+        }
+    }
+    //Вывод элементов
+    for (int i=0;i<n;i++)
+    {
+        for (int j=0;j<n;j++)
+        {
+            cout << а[i][j] << " ";
+        }
+        cout << endl;
+    }
+    
+    return 0;
+}
